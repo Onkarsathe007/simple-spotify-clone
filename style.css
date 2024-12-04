@@ -9,13 +9,14 @@ body{
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar{
-    background-color: #121212;
+    background-color: #000000;
     width: 340px;
     border-radius: 1rem; /*1 rem - 16px*/
-
+    /* margin-left: 0.4rem; */
 }
 
 .main-content{
@@ -31,4 +32,94 @@ body{
     bottom: 0px;
     width: 100%;
     height: 72px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav{
+    height: 100px;
+    padding: 0.5rem 0.75px;
+    background-color: #121212;
+    border-radius: 1rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+.nav-option{
+    line-height: 2.5rem;
+    margin-left: 1.3rem;
+    opacity: 0.7;
+    padding: 0.1rem 0.6rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size:1.25rem;
+    padding-right:0.7rem ;
+}
+
+.nav-option a{
+    font-size:1rem;
+}
+.options{
+
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.library{
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: #121212;
+    height:100%;
+    align-items: center;
+    margin-top: 0.4rem;
+    
+}
+.library img{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.library-option a{
+    margin-left: 0.1rem;
+    padding-left:1rem;
+}
+.library-icons{
+    font-size: 1rem;
+
+    display: flex;
+}
+.library-icons i{
+    opacity: 0.7;   
+    margin-right: 1rem;
+}
+
+.box{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75REM;
+    margin: 0.5rem 0  0.5rem 0;
+    padding: 0.75rem 1rem;
+    margin-top: 1.75rem;
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    margin-top: 0.5rem;
+    width: fit-content;
 }
