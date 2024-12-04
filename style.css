@@ -24,6 +24,8 @@ body{
     flex: 1;
     border-radius: 1rem;
     overflow: auto; /*scroll will be sidplayed only when it's overflow*/
+    margin-left: 0.4rem;
+    height: 100%;
 }
 
 .music-player{
@@ -122,4 +124,30 @@ a{
     height: 2rem;
     margin-top: 0.5rem;
     width: fit-content;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    /* background-color:#232323; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem 0 1rem 1rem;
+}
+.icns{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+.btns{
+   margin-right: 1.5rem;
+}
+
+@media (max-width:1000px)
+{
+    .hide{
+        display: none;
+    }
 }
