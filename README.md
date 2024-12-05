@@ -15,9 +15,4 @@ This is a **basic clone of Spotify's interface** created using **HTML** and **CS
 
 ---
 
-## 📂 Simple Project Structure
-  .
-├── index.html       # Main HTML file
-├── style.css        # CSS file for styling
-└── assets/          # Folder for images and icons (if used)
 
